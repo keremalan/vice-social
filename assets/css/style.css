@@ -1,0 +1,253 @@
+:root {
+    --primaryColor: black;
+    --secondaryColor: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    padding: 8px 12px;
+    width: 120px;
+    height: 40;
+    margin-bottom: 12px;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-brand, .header-nav, .header-profile {
+    display: flex;
+}
+
+.header-brand {
+    flex-direction: column;
+}
+
+.header-brand-title-h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.header-brand-title-h1 > strong {
+    font-size: 1.5rem;
+}
+
+.header-brand-subtitle-h4 {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-link {
+    margin: 0 10px;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.header-profile-account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--secondaryColor);
+    border-radius: 30px;
+    padding: 8px 12px;
+    color: var(--primaryColor);
+}
+
+.header-profile-account-h6--character_name {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.header-profile-account-span--character_name {
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.main-profile {
+    flex: 0.6;
+    text-align: center;
+}
+
+.main-profile-cover_image {
+}
+
+.main-profile-account_info-img {
+    margin-top: -70px;
+    border: 2px solid var(--secondaryColor);
+    border-radius: 100%;
+    margin-bottom: 4px;
+}
+
+.main-profile-account_info-h2 {
+    font-size: 1.2rem;
+}
+
+.main-profile-account_info-h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.main-profile-account_info-span {
+    display: inline-block;
+    margin: 4px 0;
+    font-size: 0.9rem;
+}
+
+.main-profile-account_info-statistics {
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.main-profile-account_info-statistics-followers {
+    margin-right: 10px;
+}
+
+.main-content {
+    flex: 2;
+    padding: 0 30px;
+}
+
+.profile-image-post {
+    width: 60px;
+}
+
+.profile-image-header {
+    width: 34px;
+}
+
+.main-content-create_post {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ffffff1e;
+}
+
+.main-content-create_post-right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
+.main-content-create_post-right-top-textarea {
+    padding: 12px 10px;
+    resize: none;
+    border: none;
+    width: 866px;
+    border-radius: 5px;
+    background-color: var(--primaryColor);
+    display: flex;
+    color: var(--secondaryColor);
+    text-align: top;
+}
+
+.main-content-create_post-right-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-content-posts-post {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content-posts-post-right-top-user_info-username {
+    display: inline-block;
+    opacity: 0.6;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.main-content-create_post-right-bottom {
+    align-items: center;
+}
+
+.main-content-posts-post-right-top-post_content-span {
+    opacity: 0.7;
+}
+
+.main-content-posts-post-right {
+    padding-left: 12px;
+}
+
+.main-sidebar {
+    flex: 0.5;
+}
+
+.main-sidebar-h3 {
+    font-size: 1.6rem;
+}
+
+.main-sidebar-trend-title {
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 3  00;
+}
+
+.main-sidebar-trend-topic {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+}
+
+.main-sidebar-trend-topic-span--tweet_info {
+    opacity: 0.6;
+}
+
+.border {
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.active {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    padding: 8px 12px;
+    border-radius: 30px;
+}
